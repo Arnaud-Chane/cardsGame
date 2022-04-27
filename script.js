@@ -17,8 +17,9 @@ var card = {};
 function mvClubsInArr() {
 	idNb++;
 	id = "card" + idNb;
-  arrClubs.push(firstEmptyCard);
-  card
+  card.id = id;
+  card.img = "cards/clubs01.png";
+  arrClubs.push(card);
   console.log(arrClubs[0]);
 }
 
