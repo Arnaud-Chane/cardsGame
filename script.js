@@ -26,6 +26,9 @@ function mvClubsInArr() {
 mvClubsInArr();
 
 
+var showCards = document.createElement("div");
+showCards.setAttribute = ("img", arrClubs[0].img);
+document.body.appendChild(showCards);
 
 
 
